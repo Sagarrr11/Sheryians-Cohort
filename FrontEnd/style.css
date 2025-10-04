@@ -1,0 +1,72 @@
+@font-face {
+    font-family: horror;
+    src : url('./Chratos.otf')
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height : 100%;
+    width : 100%;
+}
+
+p{
+    color : blue;
+}
+
+#hero{
+    color: red;
+    background-color: black;
+    font-family : horror;
+    font-size : 100px;
+    font-weight : 300;
+}
+
+.heroes{
+    color: teal;
+    background-color: orangered;
+}
+
+.container{
+    color: red;
+    background-color: black;
+    font-family : horror;
+    font-size : 100px;
+    font-weight : 300;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    height : 1000px;
+    width : 1000px;
+    flex-direction : column;
+    gap : 20px;
+    text-align : center;
+    border : 2px solid white;
+    border-radius : 10px;
+    box-shadow : 0 0 10px white;
+    animation : animate 10s linear infinite;
+    transition : all 0.3s ease-in-out;
+    cursor : pointer;
+
+}
+
+/* Part 2 */
+
+.box{
+    height: 200px;
+    width : 200px;
+    background-color: linear-gradient(red,blue,yellow);
+    border: 1px solid black;
+    margin : 20px;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    gap: 10px;
+    flex-direction : column;
+    transition : 10px eas-e-in-out;
+    
+}

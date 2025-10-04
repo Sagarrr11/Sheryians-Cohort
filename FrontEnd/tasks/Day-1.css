@@ -1,0 +1,47 @@
+@font-face{
+    font-family : "horror";
+    src : url(../fonts/Typographica-Blp5.ttf    );
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-image: url(../images/tanjiro-kamado-red-5120x2880-22577.png);
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    font-family : "horror";
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-weight: 50;
+    font-size: 100px;
+    margin-top: 10%;
+}
+
+button{
+    padding: 15px 45px;
+    font-size: 24px;
+    background-color: rgb(30, 1, 12);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border : 1px solid rgb(255, 135, 135);  
+    margin-left: 44%
+}
