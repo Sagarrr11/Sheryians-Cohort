@@ -99,12 +99,15 @@ button{
     font-weight: 100;
 }
 
-img{
+.img{
     display: flex;
     justify-content: center;
-    background-position: center;
-    background-size: cover;
-    height: 700px;
-    margin-left: 17%;
-    margin-top: 4%;
+    align-items: center;;
+    height: 750px;
+    background-color: black;
+    margin-top: 1%;
+}
+
+.img img{
+    height : 700px;
 }
